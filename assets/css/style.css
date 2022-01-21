@@ -8,15 +8,36 @@ body {
   margin-top: 25%;
   margin-left: 25%;
   margin-right: 25%;
+
+  border-radius: 15px;
+  position: absolute;
 }
 .btn {
   background-color: navy;
-  border-radius: 15px;
+  border-radius: 5px;
   color: white;
+  box-sizing: 50px;
+  margin: 5px;
+}
+.btn :hover {
+  background-color: orchid;
+}
+#hide {
+  display: none;
 }
 .container {
-  display: none;
-  width: 800px;
-  max-width: 80%;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
   border-radius: 15px;
+  position: absolute;
+  background-color: white;
+  /* width: 100%; */
+}
+.btn-grid {
+  display: block;
+}
+ul li {
+  list-style: none;
 }

@@ -8,7 +8,7 @@
     <title>Quiz</title>
   </head>
   <body>
-    <section class="start-quiz">
+    <section class="start-quiz" id="start-quiz">
       <h1>Coding Quiz Challenge</h1>
       <p>
         Try to answer the following code-related questions within the time
@@ -17,17 +17,21 @@
       </p>
       <button id="start" class="btn">Start Quiz</button>
     </section>
-    <div class="container">
-      <div id="question-container" class="hide">
-        <div id="question">Question</div>
+    <div class="container" id="hide">
+      <h3 class="timer">Time Left: <span id="rem-time">00</span></h3>
+      <div id="question-container">
+        <!-- <div id="question">Question</div>
         <div id="answer-buttons" class="btn-grid">
-          <button class="btn">Answer 1</button>
-          <button class="btn">Answer 2</button>
-          <button class="btn">Answer 3</button>
-          <button class="btn">Answer 4</button>
-        </div>
+          <ul>
+            <li><button class="btn">Answer 1</button></li>
+            <li><button class="btn">Answer 2</button></li>
+            <li><button class="btn">Answer 3</button></li>
+            <li><button class="btn">Answer 4</button></li>
+          </ul>
+        </div> -->
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
-  <script src="assets/js/script.js"></script>
 </html>
