@@ -5,7 +5,7 @@ var section = document.getElementById("start-quiz");
 var questionIndex = 0;
 var counter = 0;
 var timerId;
-var timeLeft = 1;
+var timeLeft = 60;
 var timesUp;
 var scoreResult = 0;
 var highScoreInitial = "";
