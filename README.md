@@ -12,5 +12,8 @@ No installation needed.
 - HTML
 - CSS
 - Javascript
+ 
+ ## Website
+ https://obrailovska.github.io/quiz-game/
 
 ## Made by Olha Brailovska
